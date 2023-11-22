@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-weight: 300;
+    background-color: #FFAAAA;
+}
+
+header, footer {
+    background-color: #AA3939;
+    color: #eeeee4;
+    padding: 2em 1em 2em 1em;
+    letter-spacing: 0.5em;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #550000;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-grow: 1;
+}
+
+.gruppemedlemmer {
+    color: #eeeee4;
+    border-right: 1px solid #550000;
+    background-color: #D46A6A;
+    padding: 2em;
+}
+
+.gruppemedlemmer > ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 2em;
+    list-style: none;
+}
+
+/*
+.figur-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #550000;
+    border-radius: 24px;
+    width: 100%;
+    height: 400px;
+}
+*/
+
+ul > li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    font-size: 1.5em;
+
+}
+
+.menu-figures img {
+    width: 100px;
+    height: 100px;
+}
+
+.img-front {
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #550000;
+    transition: transform 0.2s ease-in-out;
+}
+
+.img-front:hover {
+    transform: scale(1.2);
+}
+
+footer {
+    border-top: 1px solid #550000;
+}
+
+/* anchor pages */
+
+.body-child {
+    font-size: 1.5em;
+    color: #eeeee4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4em;
+}
+
+.figurer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 4em 4em 4em;
+    gap: 2em;
+    border: 1px solid #550000;;
+    background-color: #D46A6A;
+}
+
+canvas {
+    border: 1px solid black;
+}
+
+.bar-chart {
+    width: 540px;
+    height: auto;
+}
+
+.furkan-img {
+    width: 400px;
+    height: 600px;
+}
+
+.katinka-img {
+    width: 250px;
+    height: 300px;
+}
+
+.jonas-img {
+    width: 200px;
+    height: 200px;
+}
+
+.forbruk, .bio {
+    width: 500px;
+}
